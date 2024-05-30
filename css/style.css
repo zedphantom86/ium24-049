@@ -162,6 +162,24 @@ a:focus {
   font-weight: bold;
   font-size: 60px;
   color: #ffffff;
+  font-family: 'Dancing Script', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 20px 0;
+}
+@media (max-width: 768px) {
+  .navbar-brand span {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-brand span {
+    font-size: 30px;
+  }
 }
 
 .custom_nav-container {
